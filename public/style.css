@@ -1,0 +1,28 @@
+/* Nastavení výšky stránky na 100% a odstranění marginu */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flexbox kontejner pro centrování */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontální zarovnání na střed */
+    align-items: center; /* Vertikální zarovnání na střed */
+    height: 200px; /* Výška kontejneru je 100% výšky viewportu */
+    padding: 20px; /* Odsazení uvnitř kontejneru */
+    box-sizing: border-box; /* Zahrnutí paddingu do celkové velikosti */
+}
+
+/* Stylování pro h1 element */
+h1, h2 {
+    margin: 20px 0; /* Odsazení shora a zespodu */
+}
+/* Testovací styl pro ověření */
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+}
